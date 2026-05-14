@@ -1,0 +1,19 @@
+1. Create Virtual environment for python 
+
+python -m venv ml-env
+
+2. activate virtual environment 
+
+source ml-env/bin/activate
+
+3. Install packages inside python virtual environment 
+
+pip install <package name> 
+
+4. list packages install in virtual environment
+
+pip freeze
+
+5. create a file to store all packages in file 
+
+pip freeze > requirements.txt 
