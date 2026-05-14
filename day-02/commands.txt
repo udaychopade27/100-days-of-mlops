@@ -1,0 +1,16 @@
+1. activate virtual environment to run python commands there 
+source ml-env/bin/activate
+
+2. Install required packages 
+
+pip install notebook
+
+3. update notebook jupyter config file with correct details such as port , file path etc
+
+4. create base notebook directory
+
+mkdir -p /root/notebooks
+
+5. start jupyter notebooks in server in background 
+
+jupyter lab --config=/root/code/jupyter-config.py --allow-root --no-browser &
